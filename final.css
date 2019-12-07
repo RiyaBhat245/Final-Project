@@ -1,0 +1,122 @@
+body.final    {
+    background-image:url("https://article.images.consumerreports.org/f_auto/prod/content/dam/CRO%20Images%202019/Health/10Oct/CR-Health-healthy-fall-food-0919");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2      {
+    font-size: 150px;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    font-family: 'Poiret One';
+}
+h1      {
+    font-size:40px;
+    color: white;
+    text-align:center;
+    font-family: 'Poiret One';
+}
+h3      {
+    font-size:40px;
+    color: white;
+    text-align: center;
+    font-family: 'Poiret One';
+}
+/* li {
+list-style-type: none;
+}
+.whitelinks{
+color: white;
+}
+.whitelinks:hover   {
+                color: #e5a7e1;
+}
+a   {
+text-decoration: none;
+color: white;
+}
+a:hover {
+    color: #f27dc5;
+}
+nav     {
+    width: 150px;
+    height: 400px;
+    display: inline;
+}
+nav.whatever   {
+        margin-left: auto;
+        margin-right: auto;
+}
+summary         {
+            color: #c3fc80;
+            border: none;
+            text-decoration: none;
+}
+summary:hover   {
+            color: white;
+            border: none;
+            text-decoration: none;
+}
+details {
+    border: none;
+    text-decoration: none;
+}
+details:hover {
+    border: none;
+    text-decoration: none;
+}           
+img {
+height:100px;
+text-align: left;
+border: 1px solid #ffffff;
+border-radius: 4px;
+}
+img.navbar:hover {
+box-shadow: 0 0 5px 4px rgba(0, 200, 300, 0.5);
+} */
+div     {
+display: inline;
+}
+/* div:hover   {
+color: #0057a3;
+
+} */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: goldenrod;
+}
+p {
+    font-size: 100px;
+}
+
+img.home        {
+    display: inline-block;
+    top: 0%;
+    left: 0%;
+    right: 3%;
+    bottom: 1%;
+    opacity: 1;
+    border: none;
+}
