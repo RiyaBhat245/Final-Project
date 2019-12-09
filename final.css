@@ -1,5 +1,29 @@
 body.final    {
-    background-image:url("https://article.images.consumerreports.org/f_auto/prod/content/dam/CRO%20Images%202019/Health/10Oct/CR-Health-healthy-fall-food-0919");
+    background-image:url("https://i.ytimg.com/vi/_smyOW8JKSw/maxresdefault.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body.exercise    {
+    background-image:url("https://static.onecms.io/wp-content/uploads/sites/35/2017/02/03194024/1200-fitness-equipment.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body.sleep    {
+    background-image:url("http://getwallpapers.com/wallpaper/full/2/0/7/888662-amazing-starry-night-background-2078x1303-for-samsung-galaxy.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body.food    {
+    background-image:url("https://kirkmarket.ky/wp-content/uploads/2017/03/slide_survey.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body.bmi    {
+    background-image:url("https://www.10wallpaper.com/wallpaper/1280x800/1208/tree_leaves-Plant_close-up_wallpaper_1280x800.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,41 +47,21 @@ h3      {
     text-align: center;
     font-family: 'Poiret One';
 }
-/* li {
-list-style-type: none;
+form {
+    font-size: 40px;
+    color: rgb(15, 85, 0);
+    text-align: center;
+    font-family: 'Poiret One';
+    line-height: 1.5;
 }
-.whitelinks{
-color: white;
+input {
+    font-size: 40px;
+    color: rgb(116, 204, 0);
+    text-align: center;
+    font-family: 'Poiret One';
 }
-.whitelinks:hover   {
-                color: #e5a7e1;
-}
-a   {
-text-decoration: none;
-color: white;
-}
-a:hover {
-    color: #f27dc5;
-}
-nav     {
-    width: 150px;
-    height: 400px;
-    display: inline;
-}
-nav.whatever   {
-        margin-left: auto;
-        margin-right: auto;
-}
-summary         {
-            color: #c3fc80;
-            border: none;
-            text-decoration: none;
-}
-summary:hover   {
-            color: white;
-            border: none;
-            text-decoration: none;
-}
+
+/* 
 details {
     border: none;
     text-decoration: none;
@@ -75,14 +79,6 @@ border-radius: 4px;
 img.navbar:hover {
 box-shadow: 0 0 5px 4px rgba(0, 200, 300, 0.5);
 } */
-div     {
-display: inline;
-}
-/* div:hover   {
-color: #0057a3;
-
-} */
-
 
 ul {
     list-style-type: none;
@@ -91,9 +87,14 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
+.menu li{
+    display: inline-block;
+    width: 25%;
+}
   
 li {
     float: left;
+    text-align: center;
 }
   
 li a {
@@ -105,10 +106,25 @@ li a {
 }
   
 li a:hover {
-    background-color: goldenrod;
+    background-color: rgb(83, 104, 9);
 }
+li a.fo:hover {
+    background-color: rgba(202, 5, 5, 0.925);
+}
+li a.sle:hover {
+    background-color: rgb(19, 1, 99);
+}
+li a.bm:hover {
+    background-color:rgb(35, 245, 16);
+}
+li a.ex:hover {
+    background-color: rgb(255, 27, 122);
+}
+
 p {
-    font-size: 100px;
+    font-size: 50px;
+    color: white;
+    font-family: "Poiret One";
 }
 
 img.home        {

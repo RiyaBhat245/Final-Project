@@ -9,23 +9,27 @@
     <link href='https://fonts.googleapis.com/css?family=Poiret One' rel='stylesheet'>
     <title>BMI Calculator</title>
 </head>
-<body>
-    <h1><ul>
-        <div>
-            <li><a href="file:///C:/Users/riyab/Desktop/FINAL/final.html"><img class="home" draggable="false" src="https://icon-library.net/images/house-icon-white/house-icon-white-19.jpg" width="40px" height="40px"> </a></li>
-        </div>
-        <div>
-            <li><a href="file:///C:/Users/riyab/desktop/FINAL/exercise.html">Exercise</a></li>
-        </div>
-        <div>
-            <li><a href="file:///C:/Users/riyab/desktop/FINAL/food.html">Food</a></li>
-        </div>
-        <div>
-            <li><a href="file:///C:/Users/riyab/desktop/FINAL/sleep.html">Sleep</a></li>
-        </div>
+<body class="bmi">
+    <script src="final.js"></script>
+    <h1><ul class="menu">
+            <li><a href="file:///C:/Users/riyab/Desktop/FINAL/final.html" class="bm"><img class="home" draggable="false" src="https://icon-library.net/images/house-icon-white/house-icon-white-19.jpg" width="40px" height="40px"> </a></li>
+            <li><a href="file:///C:/Users/riyab/desktop/FINAL/exercise.html" class="bm">Exercise</a></li>
+            <li><a href="file:///C:/Users/riyab/desktop/FINAL/food.html" class="bm">Food</a></li>
+            <li><a href="file:///C:/Users/riyab/desktop/FINAL/sleep.html" class="bm">Sleep</a></li>
     </ul></h1><hr>
     <h2><b>BMI Calculator</b></h2>
     <hr>
-    
-</body>
+
+    <p><b>First before we start, we should see what a BMI really is. A BMI, short for body mass index, is a value found by the mass(kg) of a person divided by the squared height(m) of a person. It tells you about the measure of fat on the human body and whether the quantity is unhealthy or healthy.</b></p><br>
+    <p><b>To start, first enter your weight in kilograms and then your height in centimeters. Then click the calculate button to recieve your diagnosis.</b></p>
+
+    <form name="bmiForm"> <b>
+            Your Weight(kg): <input type="text" name="weight" size="10"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            Your Height(cm): <input type="text" name="height" size="10"><br />
+            <input type="button" value="Calculate BMI" onClick="calculateBmi();">&nbsp &nbsp &nbsp<input type="reset" value="Reset" /><br>
+            Your BMI: <input type="text" name="bmi" id="bmi" size="10"><br />
+            This Means: <input type="label" name="meaning" id="meaning" size="50"><br />
+    </b></form>
+
+    </body>
 </html>
