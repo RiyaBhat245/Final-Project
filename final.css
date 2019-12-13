@@ -1,5 +1,5 @@
 body.final    {
-    background-image:url("https://i.ytimg.com/vi/_smyOW8JKSw/maxresdefault.jpg");
+    background-image:url("https://images.squarespace-cdn.com/content/v1/574583b1d51cd4094629a439/1511438474078-JKTW9OZ19DAHA9B8WAL8/ke17ZwdGBToddI8pDm48kG87Sfbgg29A4BYEDq3OXvgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcf4OxbJOyh_wHUnyc4kQLQ6SBshRGOku7c30Y_IRDNPta8R2IY5BHMaEj1zOWoDTZ/Honey+Photo.jpeg?format=1500w");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,32 +33,32 @@ h2      {
     font-weight: bold;
     color: white;
     text-align:center;
-    font-family: 'Poiret One';
+    font-family: 'Montserrat Alternates';
 }
 h1      {
     font-size:40px;
     color: white;
     text-align:center;
-    font-family: 'Poiret One';
+    font-family: 'Montserrat Alternates';
 }
 h3      {
     font-size:40px;
     color: white;
     text-align: center;
-    font-family: 'Poiret One';
+    font-family: 'Montserrat Alternates';
 }
 form {
     font-size: 40px;
     color: rgb(15, 85, 0);
     text-align: center;
-    font-family: 'Poiret One';
+    font-family: 'Montserrat Alternates';
     line-height: 1.5;
 }
 input {
     font-size: 40px;
     color: rgb(116, 204, 0);
     text-align: center;
-    font-family: 'Poiret One';
+    font-family: 'Montserrat Alternates';
 }
 
 /* 
@@ -106,7 +106,7 @@ li a {
 }
   
 li a:hover {
-    background-color: rgb(83, 104, 9);
+    background-color: rgb(121, 31, 8);
 }
 li a.fo:hover {
     background-color: rgba(202, 5, 5, 0.925);
@@ -124,7 +124,7 @@ li a.ex:hover {
 p {
     font-size: 50px;
     color: white;
-    font-family: "Poiret One";
+    font-family: "Montserrat Alternates";
 }
 
 img.home        {
@@ -135,4 +135,5 @@ img.home        {
     bottom: 1%;
     opacity: 1;
     border: none;
+    color: white;
 }
