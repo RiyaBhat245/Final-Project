@@ -47,6 +47,22 @@ function calculateBmi() {
     }
 }
 
+// Down below is a loop
+
+let colors = ["lightblue", "white", "lightgrey"];   
+let x= 0
+setInterval(
+    function() {
+        document.getElementById("meaning").style.background = colors[x];
+        if (x < 3) {
+            x += 1
+        }
+        if (x === 3) {
+            x = 0
+        }
+    },
+500);
+
 // SOMETHING NEW I LEARNED>>
 // Making all of these conditional statements based on what the user inputs into the form was pretty 
 // new to me, but not as new as formatting and making the whole page come together as well as css styling.
