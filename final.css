@@ -17,56 +17,89 @@ body.sleep    {
     background-attachment: fixed;
 }
 body.food    {
-    background-image:url("https://goldengatepark.com/wp-content/uploads/2016/11/autumn_nature.jpg");
+    background-image:url("https://static.wixstatic.com/media/1da2e3e23e864c5fa4651bd24cdf5a0e.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 body.bmi    {
-    background-image:url("https://wallpaperaccess.com/full/640041.png");
+    background-image:url("https://www.ubackground.com/_ph/17/436191209.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 h2      {
-    font-size: 150px;
+    font-size: 72px;
     font-weight: bold;
     color: white;
     text-align:center;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Nanum Gothic';
+
 }
 h1      {
-    font-size:40px;
+    font-size:28px;
     color: white;
     text-align:center;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Nanum Gothic';
 }
 h3      {
-    font-size:40px;
-    color: white;
-    text-align: center;
-    font-family: 'Montserrat Alternates';
-}
-li.list     {
-    font-size:40px;
-    color: white;
+    font-size:28px;
+    color: rgb(0, 0, 0);
     text-align: left;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Nanum Gothic';
+    margin: 40px;
 }
-form {
-    font-size: 40px;
-    color: rgba(221, 245, 255, 0.993);
+
+div.contentText {
+    background-color: rgba(41, 41, 39, 0.822);
+    font-size:24px;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    float: left;
+    font-family: 'Nanum Gothic';
+    line-height: 150%;
+   
+}
+form.bmiForm {
+    font-size: 28px;
+    color: rgba(202, 239, 255, 0.993);
     text-align: center;
-    font-family: 'Montserrat Alternates';
-    line-height: 1.5;
-}
-input {
-    font-size: 40px;
+    font-family: 'Nanum Gothic';
+    line-height: 200%;
+    padding: 20px;
+    border-color: rgb(23, 8, 37);
+  }
+input.bmiInputs {
+    font-size: 24px;
     color: rgb(14, 102, 153);
     text-align: center;
-    font-family: 'Montserrat Alternates';
+    font-family: 'Nanum Gothic';
 }
-ul {
+input.bmiButtons {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(179, 178, 180);
+    color: rgb(0,0,0);
+    text-align: center;
+    font-family: 'Nanum Gothic';
+}
+input.label {
+    font-size: 28px;
+    color: rgb(14, 102, 153);
+    text-align: center;
+    font-family: 'Nanum Gothic';
+    border: none;
+    background-color: rgb(255, 255, 255)  ;
+}
+input.bmilabel {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Nanum Gothic';
+    border-style: none;
+    background-color: rgb(255, 255, 255)  ;
+}
+ul.menu  {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -78,16 +111,16 @@ ul {
     width: 20%;
 }
   
-li {
+li.navBar {
     float: left;
     text-align: center;
 }
-  
+ 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 30px;
+    padding: 20px 24px;
     text-decoration: none;
 }
   
@@ -95,7 +128,7 @@ li a:hover {
     background-color: rgb(16, 163, 151);
 }
 li a.fo:hover {
-    background-color: rgba(255, 102, 0, 0.925);
+    background-color: rgb(57, 255, 50);
 }
 li a.sle:hover {
     background-color: rgb(78, 6, 146);
@@ -104,13 +137,14 @@ li a.bm:hover {
     background-color:rgb(12, 201, 226);
 }
 li a.ex:hover {
-    background-color: rgb(255, 27, 122);
+    background-color: rgb(219, 0, 121);
 }
 
 p {
-    font-size: 50px;
-    color: white;
-    font-family: "Montserrat Alternates";
+    font-size: 36px;
+    color: rgba(202, 239, 255, 0.993);
+    text-align: center;
+    font-family: "Nanum Gothic";
 }
 
 img.home        {

@@ -6,35 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="final.css">
     <link rel="icon" href="http://www.iconarchive.com/download/i103416/paomedia/small-n-flat/flower.ico" type="image/gif" sizes="16x16">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nanum Gothic' rel='stylesheet'>
     <title>BMI Calculator</title>
 </head>
 <body class="bmi">
     <script src="final.js"></script>
     <h1><ul class="menu">
-            <li><a href="final.html" class="bm"><img class="home" draggable="false" src="https://icon-library.net/images/house-icon-white/house-icon-white-19.jpg" width="40px" height="40px"> </a></li>
-            <li><a href="bmi.html"class="bm">BMI</a></li>
-            <li><a href="exercise.html" class="bm">Exercise</a></li>
-            <li><a href="food.html" class="bm">Food</a></li>
-            <li><a href="sleep.html" class="bm">Sleep</a></li>
-    </ul></h1><hr>
+            <li class="navBar"><a href="final.html" class="bm"><img class="home" draggable="false" src="https://icon-library.net/images/house-icon-white/house-icon-white-19.jpg" width="24px" height="24px"> </a></li>
+            <li class="navBar"><a href="bmi.html"class="bm">BMI</a></li>
+            <li class="navBar"><a href="exercise.html" class="bm">Exercise</a></li>
+            <li class="navBar"><a href="food.html" class="bm">Food</a></li>
+            <li class="navBar"><a href="sleep.html" class="bm">Sleep</a></li>
+    </ul></h1>
     <h2><b>BMI Calculator</b></h2>
-    <hr>
+    <div class="contentText">
 
-    <p><b>First before we start, we should see what a BMI really is. A BMI, short for body mass index, is a value found by the mass(kg) of a person divided by the squared height(m) of a person. It tells you about the measure of fat on the human body and whether the quantity is unhealthy or healthy.</b></p><br>
-    <p><b>To start, first enter your weight in kilograms and then your height in centimeters. Then click the calculate button to recieve your diagnosis.</b></p>
+        First before we start, we should see what a BMI really is. A BMI, short for body mass index, is a value found by the mass(kg) of a person divided by the squared height(m) of a person. It tells you about the measure of fat on the human body and whether the quantity is unhealthy or healthy.<br/>
+        To start, first enter your weight in kilograms and then your height in centimeters. Then click the calculate button to recieve your diagnosis.<br>
 
-    <h3>
-    <form name="bmiForm"><b>
-            Your Weight(kg): <input type="text" name="weight" size="2">
-            Your Height(cm): <input type="text" name="height" size="2"><br />
-            <input type="button" value="Calculate BMI" onClick="calculateBmi();"> &nbsp &nbsp &nbsp <input type="reset" value="Reset" /><br>
-            Your BMI: <input type="text" name="bmi" id="bmi" size="5"><br />
-            This Means: <input type="label" name="meaning" id="meaning" size="40"><br />
-    </b></form><br>
-    </h3>
+    
+        <br/>
+        <form name="bmiForm" class="bmiForm">
+            <b>
+                Your Weight (kg): <input type="text" class="bmiInputs" name="weight" size="3" style="width:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Your Height (cm): <input type="text" class="bmiInputs" name="height" size="3" style="width:100px;"><br />
+                <input type="button" value="Calculate BMI" class="bmiButtons" onClick="calculateBmi();"  style="width:200px;"> &nbsp; &nbsp; &nbsp; 
+                <input type="reset" class="bmiButtons" value="Reset" style="width:200px;"/><br/>
+                <p id="showResult" hidden>
+                    Your BMI : <input type="label" class="bmilabel" name="bmi" id="bmi" size="6" style="width:200px;" readonly><br />
+                    This indicates : <input type="label" class="label" name="meaning" id="meaning" size="35" readonly ><br />
+                </p>  
+            </b>
+        </form>
+        <br/><br/><br/>
 
-    <img src="https://specialtycareus.com/wp-content/uploads/Specialtycare-medical-blog-bg-obesity-paradox-bmi.jpg" alt="Obesity Diagram" class="chart"><br><br>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Body_mass_index_chart.svg/1200px-Body_mass_index_chart.svg.png" alt="Obesity Graph" class="chart"><br>
-    </body>
+        <img src="https://specialtycareus.com/wp-content/uploads/Specialtycare-medical-blog-bg-obesity-paradox-bmi.jpg" alt="Obesity Diagram" class="chart"><br/><br/><br/>
+        <img src="BMIchart.png" alt="Obesity Graph" class="chart"><br/><br/>
+    </div>
+</body>
 </html>
